@@ -6,6 +6,9 @@ public class Main {
 
         Direction direction = Direction.NORTH;
         System.out.println(direction);
+        
+        Shift shift = Shift.AFTERNOON;
+        System.out.println(shift);
 
         Parking parking = new Parking("Long Term Parking", 69, 20);
         parking.setLot("Long Term Parking");
