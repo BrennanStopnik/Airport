@@ -6,7 +6,7 @@ public class Main {
 
         Direction direction = Direction.NORTH;
         System.out.println(direction);
-        
+
         Shift shift = Shift.AFTERNOON;
         System.out.println(shift);
 
