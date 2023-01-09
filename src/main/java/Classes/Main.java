@@ -1,5 +1,9 @@
 package Classes;
 
+import Enums.Days;
+import Enums.Direction;
+import Enums.Shift;
+
 public class Main {
     public static void main(String[] args) {
 
