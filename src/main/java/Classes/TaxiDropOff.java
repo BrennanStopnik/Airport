@@ -1,3 +1,5 @@
+package Classes;
+
 public abstract class TaxiDropOff {
     private int price;
 

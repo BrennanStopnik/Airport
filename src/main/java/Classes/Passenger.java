@@ -1,3 +1,5 @@
+package Classes;
+
 public class Passenger {
     private String name;
     private String sex;
@@ -63,5 +65,5 @@ public class Passenger {
     }
 
     @Override
-    public String toString() { return " Passenger name: " + this.name + "\n Sex: " + this.sex + "\n Age: " + this.age + "\n Needs assistance: " + this.assistance + "\n Has a guardian: " + this.guardian + "\n Passed security: " + this.security;}
+    public String toString() { return " Classes.Passenger name: " + this.name + "\n Sex: " + this.sex + "\n Age: " + this.age + "\n Needs assistance: " + this.assistance + "\n Has a guardian: " + this.guardian + "\n Passed security: " + this.security;}
 }

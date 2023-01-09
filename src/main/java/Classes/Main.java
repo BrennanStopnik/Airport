@@ -1,3 +1,5 @@
+package Classes;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -10,8 +12,8 @@ public class Main {
         Shift shift = Shift.AFTERNOON;
         System.out.println(shift);
 
-        Parking parking = new Parking("Long Term Parking", 69, 20);
-        parking.setLot("Long Term Parking");
+        Parking parking = new Parking("Long Term Classes.Parking", 69, 20);
+        parking.setLot("Long Term Classes.Parking");
         parking.setStall(69);
         parking.setPrice(20);
 

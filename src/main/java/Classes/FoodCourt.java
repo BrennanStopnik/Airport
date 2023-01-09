@@ -1,3 +1,5 @@
+package Classes;
+
 public class FoodCourt implements IEat {
     private String foodType;
     private String restaurantName;

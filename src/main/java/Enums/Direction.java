@@ -1,3 +1,5 @@
+package Enums;
+
 public enum Direction {
     NORTH(360),
     SOUTH(180),

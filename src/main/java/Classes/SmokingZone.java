@@ -1,3 +1,5 @@
+package Classes;
+
 public class SmokingZone implements ISmoke {
     private int capacity;
     private String open;
@@ -18,6 +20,6 @@ public class SmokingZone implements ISmoke {
     }
     @Override
     public void smokeTime() {
-        System.out.println("I smoked for " + howLong);
+        System.out.println("I smoked for " + ISmoke.howLong);
     }
 }

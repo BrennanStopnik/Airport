@@ -1,3 +1,5 @@
+package Classes;
+
 public class DutyFree implements IShop {
     private String storeName;
     private boolean open;

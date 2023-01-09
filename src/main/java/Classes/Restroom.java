@@ -1,4 +1,6 @@
-public abstract class Restroom implements IUseRestroom{
+package Classes;
+
+public abstract class Restroom implements IUseRestroom {
     private String  sex;
     private boolean available;
     private boolean clean;

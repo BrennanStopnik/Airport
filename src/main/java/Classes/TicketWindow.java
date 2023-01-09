@@ -1,3 +1,7 @@
+package Classes;
+
+import Classes.Luggage;
+
 public class TicketWindow extends Luggage {
     private String passenger;
     private float price;

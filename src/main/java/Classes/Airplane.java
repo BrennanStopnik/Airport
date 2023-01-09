@@ -1,4 +1,6 @@
-public class Airplane extends Passenger implements IBoard{
+package Classes;
+
+public class Airplane extends Passenger implements IBoard {
     private int capacity;
     private int tailNumber;
 

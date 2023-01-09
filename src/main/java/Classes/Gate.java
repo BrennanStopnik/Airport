@@ -1,3 +1,7 @@
+package Classes;
+
+import Classes.Airplane;
+
 public abstract class Gate extends Airplane {
     private String gateNumber;
     private String gateType;
@@ -36,6 +40,6 @@ public abstract class Gate extends Airplane {
 
     @Override
     public String toString(){
-        return "Gate Number: " + this.gateNumber + " Gate Type: " + this.gateType + " Gate Status: " + this.gateStatus;
+        return "Classes.Gate Number: " + this.gateNumber + " Classes.Gate Type: " + this.gateType + " Classes.Gate Status: " + this.gateStatus;
     }
 }

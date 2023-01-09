@@ -1,3 +1,5 @@
+package Classes;
+
 public class Parking {
     private String lot;
     private int stall;
@@ -38,6 +40,6 @@ public class Parking {
     @Override
     public String toString() {
 
-        return "Parking [price=" + price + ", stall=" + stall + "]";
+        return "Classes.Parking [price=" + price + ", stall=" + stall + "]";
     }
 }

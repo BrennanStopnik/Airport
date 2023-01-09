@@ -1,3 +1,5 @@
+package Enums;
+
 public enum Shift {
     MORNING(0600, 1200),
     AFTERNOON(1200, 1800),

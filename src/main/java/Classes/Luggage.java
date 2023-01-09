@@ -1,3 +1,5 @@
+package Classes;
+
 public class Luggage {
     int bagCount;
     int weight;
@@ -24,6 +26,6 @@ public class Luggage {
     }
     @Override
     public String toString() {
-        return "Luggage [bagCount=" + bagCount + ", weight=" + weight + "]";
+        return "Classes.Luggage [bagCount=" + bagCount + ", weight=" + weight + "]";
     }
 }
