@@ -1,4 +1,4 @@
-package Classes;
+package com.solvd.airport.models;
 
 public class DutyFree implements IShop {
     private String storeName;

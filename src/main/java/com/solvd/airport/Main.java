@@ -1,8 +1,9 @@
-package Classes;
+package com.solvd.airport;
 
-import Enums.Days;
-import Enums.Direction;
-import Enums.Shift;
+import com.solvd.airport.enums.Days;
+import com.solvd.airport.enums.Direction;
+import com.solvd.airport.enums.Shift;
+import com.solvd.airport.models.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,7 +26,7 @@ public class Main {
         Passenger passenger = new Passenger();
         passenger.setName("John Doe");
         passenger.setAge(43);
-        passenger.setSex("Male");
+        passenger.setGender("Male");
         passenger.setAssistance(false);
         passenger.setGuardian(false);
         passenger.setSecurity(true);

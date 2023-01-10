@@ -1,6 +1,6 @@
-package Classes;
+package com.solvd.airport.models;
 
-public class Airplane extends Passenger implements IBoard {
+public class Airplane {
     private int capacity;
     private int tailNumber;
 
@@ -22,11 +22,11 @@ public class Airplane extends Passenger implements IBoard {
     public void setTailNumber(int tailNumber){
         this.tailNumber = tailNumber;
     }
-    @Override
+
     public void boardingStatus() {
         System.out.println("Boarded the plane.");
     }
-    @Override
+
     public void boardingTime() {
         System.out.println("Boarding time starts in 30 minutes.");
     }

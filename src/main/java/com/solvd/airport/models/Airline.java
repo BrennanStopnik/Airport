@@ -1,4 +1,4 @@
-package Classes;
+package com.solvd.airport.models;
 
 public class Airline {
     private String company;
@@ -24,16 +24,16 @@ public class Airline {
     private float getPrice(){
         return this.price;
     }
-    void setCompany(String company){
+    public void setCompany(String company){
         this.company = company;
     }
-    void setDeparture(String departure){
+    public void setDeparture(String departure){
         this.departure = departure;
     }
-    void setArrival(String arrival){
+    public void setArrival(String arrival){
         this.arrival = arrival;
     }
-    void setPrice(float price){
+    public void setPrice(float price){
         this.price = price;
     }
 

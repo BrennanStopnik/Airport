@@ -1,4 +1,4 @@
-package Enums;
+package com.solvd.airport.enums;
 
 public enum Shift {
     MORNING(0600, 1200),

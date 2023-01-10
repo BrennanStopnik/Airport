@@ -1,6 +1,4 @@
-package Classes;
-
-import Classes.Luggage;
+package com.solvd.airport.models;
 
 public class TicketWindow extends Luggage {
     private String passenger;
@@ -24,13 +22,13 @@ public class TicketWindow extends Luggage {
         return this.destination;
     }
 
-    void setPassenger(String passenger){
+    public void setPassenger(String passenger){
         this.passenger = passenger;
     }
-    void setPrice(float price){
+    public void setPrice(float price){
         this.price = price;
     }
-    void setDestination(String destination){
+    public void setDestination(String destination){
         this.destination = destination;
     }
 

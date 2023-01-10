@@ -1,8 +1,11 @@
-package Classes;
+package com.solvd.airport.models;
 
-public class Passenger {
+
+import com.solvd.airport.interfaces.IPerson;
+
+public class Passenger implements IPerson {
     private String name;
-    private String sex;
+    private String gender;
     private int age;
     private boolean assistance;
     private boolean guardian;
@@ -10,15 +13,11 @@ public class Passenger {
 
     public Passenger(String passName, String mOrF, int whatAge, boolean needsAssistance, boolean guardianPresent, boolean passedSec ) {
         this.name = passName;
-        this.sex = mOrF;
+        this.gender = mOrF;
         this.age = whatAge;
         this.assistance = needsAssistance;
         this.guardian = guardianPresent;
         this.security = passedSec;
-    }
-
-    public Passenger() {
-
     }
 
 
@@ -29,11 +28,11 @@ public class Passenger {
         return this.name;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
-    public java.lang.String getSex() {
-        return sex;
+    public java.lang.String getGender() {
+        return gender;
     }
 
     public void setAge(int age) {
@@ -42,6 +41,7 @@ public class Passenger {
     public int getAge() {
         return age;
     }
+
 
     public void setAssistance(boolean assistance) {
         this.assistance = assistance;

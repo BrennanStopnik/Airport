@@ -1,4 +1,4 @@
-package Classes;
+package com.solvd.airport.models;
 
 public class SmokingZone implements ISmoke {
     private int capacity;

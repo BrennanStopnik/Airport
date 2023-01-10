@@ -1,4 +1,4 @@
-package Classes;
+package com.solvd.airport.models;
 
 public class Parking {
     private String lot;

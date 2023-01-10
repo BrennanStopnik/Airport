@@ -1,7 +1,7 @@
-package Classes;
+package com.solvd.airport.models;
 
-import Interfaces.IArrive;
-import Interfaces.IDepart;
+import com.solvd.airport.interfaces.IArrive;
+import com.solvd.airport.interfaces.IDepart;
 
 public class Airport implements IArrive, IDepart {
     private String name;

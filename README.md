@@ -1,2 +1,2 @@
-# Classes.Airport
- Classes.Airport project for Solvd Laba
+# models.Airport
+ models.Airport project for Solvd Laba

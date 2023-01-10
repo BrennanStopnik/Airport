@@ -1,4 +1,4 @@
-package Enums;
+package com.solvd.airport.enums;
 
 public enum Days {
     SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY

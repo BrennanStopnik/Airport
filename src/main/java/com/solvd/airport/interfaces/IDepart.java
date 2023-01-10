@@ -1,4 +1,4 @@
-package Interfaces;
+package com.solvd.airport.interfaces;
 
 public interface IDepart {
     String wentBy = "Plane";
