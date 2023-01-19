@@ -3,7 +3,7 @@ package com.solvd.airport.models;
 
 import com.solvd.airport.interfaces.IPerson;
 
-public class Passenger implements IPerson {
+public abstract class Passenger implements IPerson {
     private String name;
     private String gender;
     private int age;
@@ -65,5 +65,5 @@ public class Passenger implements IPerson {
     }
 
     @Override
-    public String toString() { return " Classes.Passenger name: " + this.name + "\n Sex: " + this.sex + "\n Age: " + this.age + "\n Needs assistance: " + this.assistance + "\n Has a guardian: " + this.guardian + "\n Passed security: " + this.security;}
+    public String toString() { return " Classes.Passenger name: " + this.name + "\n Sex: " + this.gender + "\n Age: " + this.age + "\n Needs assistance: " + this.assistance + "\n Has a guardian: " + this.guardian + "\n Passed security: " + this.security;}
 }

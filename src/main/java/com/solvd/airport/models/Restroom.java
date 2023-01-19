@@ -1,6 +1,6 @@
 package com.solvd.airport.models;
 
-public abstract class Restroom implements IUseRestroom {
+public abstract class Restroom {
     private String  sex;
     private boolean available;
     private boolean clean;
@@ -14,13 +14,4 @@ public abstract class Restroom implements IUseRestroom {
     @Override
     public String toString() {return "The" + this.sex + "restroom is clean: " + this.clean + " and available " + this.available + ".";}
 
-    @Override
-    public void useRestroom() {
-        System.out.println("I used the restroom.");
-    }
-
-    @Override
-    public void washHands() {
-        System.out.println("I washed my hands.");
-    }
 }

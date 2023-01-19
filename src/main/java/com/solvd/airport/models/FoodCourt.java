@@ -1,6 +1,8 @@
 package com.solvd.airport.models;
 
-public class FoodCourt implements IEat {
+import com.solvd.airport.interfaces.IStore;
+
+public class FoodCourt implements IStore {
     private String foodType;
     private String restaurantName;
     private float price;
@@ -35,8 +37,55 @@ public class FoodCourt implements IEat {
         this.price = price;
     }
 
+
+
     @Override
-    public void eat(){
-        System.out.println("I am eating " + this.foodType + " from " + this.restaurantName + " and it costs $" + this.price);
+    public String getStoreName() {
+        return null;
+    }
+
+    @Override
+    public String setStoreName() {
+        return null;
+    }
+
+    @Override
+    public String getStoreType() {
+        return null;
+    }
+
+    @Override
+    public String setStoreType() {
+        return null;
+    }
+
+    @Override
+    public String getStoreId() {
+        return null;
+    }
+
+    @Override
+    public String setStoreId() {
+        return null;
+    }
+
+    @Override
+    public String getStoreCapacity() {
+        return null;
+    }
+
+    @Override
+    public String setStoreCapacity() {
+        return null;
+    }
+
+    @Override
+    public String getStoreOpen() {
+        return null;
+    }
+
+    @Override
+    public String setStoreOpen() {
+        return null;
     }
 }

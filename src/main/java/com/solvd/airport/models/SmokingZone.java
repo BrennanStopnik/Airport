@@ -1,8 +1,8 @@
 package com.solvd.airport.models;
 
-public class SmokingZone implements ISmoke {
-    private int capacity;
-    private String open;
+public class SmokingZone {
+    private final int capacity;
+    private final String open;
 
     public SmokingZone(int howBig, String isOpen){
         this.capacity = howBig;
@@ -14,12 +14,4 @@ public class SmokingZone implements ISmoke {
         return "The smoking section can hold " + this.capacity + " and " + this.open + "."
     ;}
 
-    @Override
-    public void smoke() {
-        System.out.println("I smoked.");
-    }
-    @Override
-    public void smokeTime() {
-        System.out.println("I smoked for " + ISmoke.howLong);
-    }
 }

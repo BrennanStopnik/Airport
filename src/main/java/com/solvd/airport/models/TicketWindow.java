@@ -1,12 +1,11 @@
 package com.solvd.airport.models;
 
-public class TicketWindow extends Luggage {
+public class TicketWindow {
     private String passenger;
     private float price;
     private String destination;
 
     public TicketWindow(String passName, float ticketPrice, String passDestination){
-        super(1, 20);
         this.passenger = passName;
         this.price = ticketPrice;
         this.destination = passDestination;

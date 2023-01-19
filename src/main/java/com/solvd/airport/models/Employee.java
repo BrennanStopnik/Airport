@@ -1,6 +1,8 @@
 package com.solvd.airport.models;
 
-public class Employee {
+import com.solvd.airport.interfaces.IPerson;
+
+public class Employee implements IPerson {
     private String name;
     private String position;
     private String working;
@@ -13,6 +15,31 @@ public class Employee {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String setName() {
+        return null;
+    }
+
+    @Override
+    public int getAge() {
+        return 0;
+    }
+
+    @Override
+    public int setAge() {
+        return 0;
+    }
+
+    @Override
+    public String getGender() {
+        return null;
+    }
+
+    @Override
+    public String setGender() {
+        return null;
     }
 
     public void setName(String name) {

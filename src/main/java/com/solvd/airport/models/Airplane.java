@@ -1,6 +1,8 @@
 package com.solvd.airport.models;
 
-public class Airplane {
+import com.solvd.airport.interfaces.IVehicle;
+
+public class Airplane implements IVehicle {
     private int capacity;
     private int tailNumber;
 
@@ -29,5 +31,35 @@ public class Airplane {
 
     public void boardingTime() {
         System.out.println("Boarding time starts in 30 minutes.");
+    }
+
+    @Override
+    public String getVehicleType() {
+        return null;
+    }
+
+    @Override
+    public String setVehicleType() {
+        return null;
+    }
+
+    @Override
+    public String getVehicleCapacity() {
+        return null;
+    }
+
+    @Override
+    public String setVehicleCapacity() {
+        return null;
+    }
+
+    @Override
+    public String getVehicleId() {
+        return null;
+    }
+
+    @Override
+    public String setVehicleId() {
+        return null;
     }
 }

@@ -1,9 +1,10 @@
 package com.solvd.airport.models;
 
-public abstract class TaxiDropOff {
+public abstract class TaxiStation {
     private int price;
 
-    public TaxiDropOff(int taxiPrice){
+    public TaxiStation(int taxiPrice){
+
         this.price = taxiPrice;
     }
 
