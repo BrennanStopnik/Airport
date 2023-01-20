@@ -3,7 +3,7 @@ package com.solvd.airport.models;
 
 import com.solvd.airport.interfaces.IPerson;
 
-public abstract class Passenger implements IPerson {
+public class Passenger implements IPerson {
     private String name;
     private String gender;
     private int age;
@@ -28,6 +28,11 @@ public abstract class Passenger implements IPerson {
         return this.name;
     }
 
+    @Override
+    public String setName() {
+        return null;
+    }
+
     public void setGender(String gender) {
         this.gender = gender;
     }
@@ -35,11 +40,21 @@ public abstract class Passenger implements IPerson {
         return gender;
     }
 
+    @Override
+    public String setGender() {
+        return null;
+    }
+
     public void setAge(int age) {
         this.age = age;
     }
     public int getAge() {
         return age;
+    }
+
+    @Override
+    public int setAge() {
+        return 0;
     }
 
 

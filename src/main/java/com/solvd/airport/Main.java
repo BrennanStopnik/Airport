@@ -1,70 +1,67 @@
 package com.solvd.airport;
-//
-//import com.solvd.airport.enums.Days;
-//import com.solvd.airport.enums.Direction;
-//import com.solvd.airport.enums.Shift;
-//import com.solvd.airport.models.*;
+
+import com.solvd.airport.enums.Days;
+import com.solvd.airport.enums.Direction;
+import com.solvd.airport.enums.Shift;
+import com.solvd.airport.models.*;
 
 public class Main {
     public static void main(String[] args) {
 
+        // Create a new Passenger
+        Passenger passenger = new Passenger("John Doe", "M", 43, false, false, true);
+
+        // Create a new TicketWindow
+        TicketWindow ticketWindow = new TicketWindow(passenger.getName(), 100, "New York");
+
+        // Create a new Airline
+        Airline airline = new Airline("Delta", "Raleigh", "New York", 400);
+
+        // Create a new Parking
+        Parking parking = new Parking("Long Term Parking", 69, 20);
+
+        // Create a new Employee
+        Employee employee = new Employee("John", "Smith", "111-11-1111");
+
+        // Create a new FoodCourt
+        FoodCourt foodCourt = new FoodCourt("Pizza", "Blaze", 10.00F);
+
+        // Create a new Days
+        Days day = Days.SUNDAY;
+
+        // Create a new Direction
+        Direction direction = Direction.NORTH;
+
+        // Create a new Shift
+        Shift shift = Shift.AFTERNOON;
+
+        // Print out the Passenger
+        System.out.println(passenger);
+
+        // Print out the TicketWindow
+        System.out.println(ticketWindow);
+
+        // Print out the Airline
+        System.out.println(airline);
+
+        // Print out the Parking
+        System.out.println(parking);
+
+        // Print out the Employee
+        System.out.println(employee);
+
+        // Print out the FoodCourt
+        System.out.println(foodCourt);
+
+        // Print out the Days
+        System.out.println(day);
+
+        // Print out the Direction
+        System.out.println(direction);
+
+        // Print out the Shift
+        System.out.println(shift);
 
 
-//        Days day = Days.SUNDAY;
-//        System.out.println(day);
-//
-//        Direction direction = Direction.NORTH;
-//        System.out.println(direction);
-//
-//        Shift shift = Shift.AFTERNOON;
-//        System.out.println(shift);
-//
-//        Parking parking = new Parking("Long Term Classes.Parking", 69, 20);
-//        parking.setLot("Long Term Classes.Parking");
-//        parking.setStall(69);
-//        parking.setPrice(20);
-//
-//
-//        Passenger passenger = new Passenger();
-//        passenger.setName("John Doe");
-//        passenger.setAge(43);
-//        passenger.setGender("Male");
-//        passenger.setAssistance(false);
-//        passenger.setGuardian(false);
-//        passenger.setSecurity(true);
-//
-//        TicketWindow ticketWindow = new TicketWindow(passenger.getName(), 100, "New York");
-//        ticketWindow.setPassenger(passenger.getName());
-//        ticketWindow.setPrice(100.00f);
-//        ticketWindow.setDestination("New York");
-//
-//        Airline airline = new Airline("Delta", "Raleigh", "New York", 400);
-//        airline.setCompany("Delta");
-//        airline.setDeparture("Raleigh");
-//        airline.setArrival("New York");
-//        airline.setPrice(400);
-//
-//
-//
-//        Employee[] employees = new Employee[5];
-//           employees[0] = new Employee("John", "Smith", "111-11-1111");
-//           employees[1] = new Employee("Kathy", "Smith", "222-22-2222");
-//           employees[2] = new Employee("Mark", "Smith", "333-33-3333");
-//           employees[3] = new Employee("Sue", "Smith", "444-44-4444");
-//           employees[4] = new Employee("Bob", "Smith", "555-55-5555");
-//
-//        FoodCourt[] food = new FoodCourt[5];
-//            food[0] = new FoodCourt("Pizza", "Blaze", 10.00F);
-//            food[1] = new FoodCourt("Burger", "Five Guys", 8.00F);
-//            food[2] = new FoodCourt("Sandwich", "Subway", 6.00F);
-//            food[3] = new FoodCourt("Salad", "Chick Fil A", 4.00F);
-//            food[4] = new FoodCourt("Fries", "McDonald's", 2.00F);
-//
-//        Airline[] airlines = new Airline[5];
-//            airlines[0] = new Airline("Delta", "Atlanta", "New York", 100.00F);
-//            airlines[1] = new Airline("American", "Dallas", "New York", 200.00F);
-//            airlines[2] = new Airline("Southwest", "Houston", "New York", 300.00F);
-//            airlines[3] = new Airline("United", "Chicago", "New York", 400.00F);
-//            airlines[4] = new Airline("JetBlue", "Los Angeles", "New York", 500.00F);
     }
 }
