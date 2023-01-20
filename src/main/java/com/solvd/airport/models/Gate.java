@@ -1,12 +1,12 @@
 package com.solvd.airport.models;
 
-public abstract class Gate extends Airplane {
+public abstract class Gate extends Airport {
     private String gateNumber;
     private String gateType;
     private String gateStatus;
 
-    public Gate(int capacity, int tailNumber, String gateNumber, String gateType, String gateStatus){
-        super(capacity, tailNumber);
+    public Gate(String gateNumber, String gateType, String gateStatus){
+        super("Raleigh", "Raleigh", "XL", "International");
         this.gateNumber = gateNumber;
         this.gateType = gateType;
         this.gateStatus = gateStatus;
