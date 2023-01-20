@@ -1,6 +1,6 @@
 package com.solvd.airport.models;
 
-public class Airport implements IArrive, IDepart {
+public class Airport {
     private String name;
     private String location;
     private String size;
@@ -42,17 +42,6 @@ public class Airport implements IArrive, IDepart {
         return "The Classes.Airport is " + this.name + " and is located in " + this.location + ". It is a " + this.size + " airport and is a " + this.type + " airport.";
     }
 
-    @Override
-    public void arrivingStatus() {
-        System.out.println("I arrived by " + IArrive.cameBy);
-    }
 
-    @Override
-    public void depart() {
-        System.out.println("I departed by " + IDepart.wentBy);
-    }
-    @Override
-    public void departureTime() {
-        System.out.println("Departure time is " + IDepart.time);
-    }
+
 }
